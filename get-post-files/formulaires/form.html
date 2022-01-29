@@ -1,0 +1,23 @@
+<form method="post" action="script.php">
+  <div>
+    <label for="firstname">Firstname :</label>
+    <input type="text" id="firstname" name="firstname" value="" />
+
+  </div>
+  <div>
+    <label for="country">Country :</label>
+    <select id="country" name="country">
+      <option value="France">France</option>
+      <option value="Espagne">Espagne</option>
+      <option value="Italie">Italie</option>
+    </select>
+
+  </div>
+  <div>
+    <label for="languages">Languages :</label>
+    <input type="checkbox" name="languages[]" value="php" />PHP
+    <input type="checkbox" name="languages[]" value="javascript" />Javascript
+    <input type="checkbox" name="languages[]" value="perl" />PERL
+  </div>
+  <button type="submit">Send</button>
+</form>
